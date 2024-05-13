@@ -7,12 +7,12 @@ const Hero = () => {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-12 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 cor">
+            <h1 data-aos="fade-right" className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 cor">
               We Provide 
               <br className="hidden lg:inline-block cor" />
               The Best Possible Legal Services Globally
             </h1>
-            <p className="mb-8 leading-relaxed text-lg dm">
+            <p data-aos="fade-right" className="mb-8 leading-relaxed text-lg dm">
               Vitae auctor eu augue ut lectus arcu. Dictum fusce ut placerat
               orci nulla pellentesque dignissim enim. Enim nunc faucibus a
               pellentesque sit amet porttitor eget dolor.
@@ -25,6 +25,7 @@ const Hero = () => {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
+            data-aos="fade-left"
               className="object-cover object-center rounded"
               alt="hero"
               src={Img1}

@@ -5,7 +5,16 @@ import Footer from "./component/Footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+// Initialize AOS once the component mounts
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <BrowserRouter>

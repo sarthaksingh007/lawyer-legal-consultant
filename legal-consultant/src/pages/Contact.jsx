@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <div>
       <section className="text-gray-600 body-font relative">
-        <div className="absolute  inset-0 bg-gray-300">
+        <div className="absolute  inset-0 bg-[#312c1c]">
           <iframe
             width="100%"
             height="100%"
@@ -16,18 +16,20 @@ const Contact = () => {
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }} // Corrected style attribute
           />
         </div>
-        <div className="container px-5 py-24 mx-auto flex">
+        <div className="container px-5 py-24 mx-auto flex" data-aos="zoom-out-right">
           <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-            <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-              Feedback
+            <h2 className="border-b-8 border-[#fdd14d] border-double sm:w-3/4 w-11/12 mx-auto pb-3 text-center text-gray-600 cor text-5xl mb-3 font-bold">
+              Contact Us
             </h2>
-            <p className="leading-relaxed mb-5 text-gray-600">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+            <p className="leading-relaxed mb-5 text-gray-600 cor font-bold">
+              Expert Guidance, Personalized Solutions: Connect with Our Legal
+              Team Today, Your Legal Journey Starts Here: Reach Out for Trusted
+              Counsel
             </p>
             <div className="relative mb-4">
               <label
                 htmlFor="email"
-                className="leading-7 text-sm text-gray-600"
+                className="leading-7 text-sm text-gray-600 cor font-bold"
               >
                 Email
               </label>
@@ -35,28 +37,27 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full cor font-bold bg-white rounded border border-[#fdd14d] focus:border-[#fdd14d] focus:ring-2 focus:ring-[#fdd14d] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div className="relative mb-4">
               <label
                 htmlFor="message"
-                className="leading-7 text-sm text-gray-600"
+                className="leading-7 text-sm text-gray-600 cor font-bold"
               >
                 Message
               </label>
               <textarea
                 id="message"
                 name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full cor font-bold bg-white rounded border border-[#fdd14d] focus:border-[#fdd14d] focus:ring-2 focus:ring-[#fdd14d] h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button className="text-[#fdd14d] bg-white  py-2 px-6 focus:outline-none hover:text-white  border-[#fdd14d] border-2 hover:bg-[#fdd14d] rounded text-lg">
               Button
             </button>
-            <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+            <p className="text-xs text-gray-500 mt-3 cor font-bold">
+              Tailored Legal Solutions Just a Click Away: Contact Us Now
             </p>
           </div>
         </div>

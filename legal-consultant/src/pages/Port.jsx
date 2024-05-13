@@ -8,9 +8,9 @@ const Port = () => {
         <br className="hidden sm:block" />
         Selfies Wayfarers
       </h1>
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 sm:flex-row flex-col">
-          <div className="p-4 md:w-1/3 flex rounded-tl-lg  bg-[#FFF2CC] m-4">
+      <div className="container px-5 py-24 mx-auto" >
+        <div className="flex sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 sm:flex-row flex-col" >
+          <div className="p-4 md:w-1/3 flex rounded-tl-lg  bg-[#FFF2CC] m-4" data-aos="flip-left">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-[#FFF2CC] text-[#fdd14d] mb-4 flex-shrink-0">
               <svg
                 fill="none"
@@ -25,10 +25,10 @@ const Port = () => {
               </svg>
             </div>
             <div className="flex-grow pl-6 ">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-2xl title-font font-medium mb-2 cor">
                 Shooting Stars
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-base dm">
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
@@ -50,7 +50,7 @@ const Port = () => {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex rounded-tr-lg bg-[#FFF2CC] m-4">
+          <div className="p-4 md:w-1/3 flex rounded-tr-lg bg-[#FFF2CC] m-4" data-aos="flip-right">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-[#FFF2CC] text-[#fdd14d] mb-4 flex-shrink-0">
               <svg
                 fill="none"
@@ -67,10 +67,10 @@ const Port = () => {
               </svg>
             </div>
             <div className="flex-grow pl-6 ">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-2xl title-font font-medium mb-2 cor">
                 The Catalyzer
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-base dm">
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr
@@ -92,7 +92,7 @@ const Port = () => {
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex rounded-bl-lg bg-[#FFF2CC] m-4">
+          <div className="p-4 md:w-1/3 flex rounded-bl-lg bg-[#FFF2CC] m-4" data-aos="flip-left">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-[#FFF2CC] text-[#fdd14d] mb-4 flex-shrink-0">
               <svg
                 fill="none"
@@ -108,10 +108,10 @@ const Port = () => {
               </svg>
             </div>
             <div className="flex-grow pl-6 ">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              <h2 className="text-gray-900 text-2xl title-font font-medium mb-2 cor">
                 Neptune
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-base dm">
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard ugh iceland kickstarter tumblr

@@ -9,11 +9,11 @@ const Expertise = () => {
       </h1>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex justify-center flex-wrap">
-          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden" data-aos="fade-down-right">
             <img alt="feature" className="sm:p-16 p-2 sm:rounded-l-full rounded-2xl" src={Law} />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-            <div className="flex flex-col mb-10 lg:items-start items-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center" data-aos="zoom-in-up">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-[#FFF2CC] text-[#fdd14d] mb-5">
                 <svg
                   fill="none"
@@ -28,10 +28,10 @@ const Expertise = () => {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-600  text-xl title-font font-medium mb-3">
+                <h2 className="text-gray-600  text-3xl title-font font-medium mb-3 cor fond-bold ">
                   Shooting Stars
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base dm">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -51,7 +51,7 @@ const Expertise = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center" data-aos="zoom-in-up">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-[#FFF2CC] text-[#fdd14d] mb-5">
                 <svg
                   fill="none"
@@ -68,10 +68,10 @@ const Expertise = () => {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-600  text-xl title-font font-medium mb-3">
+                <h2 className="text-gray-600  text-3xl title-font font-medium mb-3 cor fond-bold ">
                   The Catalyzer
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base dm">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -91,7 +91,7 @@ const Expertise = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
+            <div className="flex flex-col mb-10 lg:items-start items-center" data-aos="zoom-in-up">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-[#FFF2CC] text-[#fdd14d] mb-5">
                 <svg
                   fill="none"
@@ -107,10 +107,10 @@ const Expertise = () => {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-600  text-xl title-font font-medium mb-3">
+                <h2 className="text-gray-600  text-3xl title-font font-medium mb-3 cor fond-bold ">
                   Neptune
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base dm">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>

@@ -30,7 +30,7 @@ a:hover {
 }
 
 #about-us-section {
-  background: #0c4c91;
+  background: #F4B183;
   width: 100%;
   height: 50%;
   display: flex;
@@ -39,6 +39,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
 @media screen and (max-width: 860px) {
@@ -73,7 +74,7 @@ a:hover {
 @media screen and (max-width: 644px) {
   .about-us-image img {
     position: absolute;
-    left: -220px;
+    left: 0;
   }
 }
 
@@ -93,7 +94,7 @@ a:hover {
   .about-us-info {
     margin-right: 400px;
     width: 60%;
-    background: #0c4c9199;
+
     padding: 0px 25px 0px 0px;
   }
 }
@@ -134,7 +135,6 @@ a:hover {
 }
 
 .about-us-info h2 {
-  color: white;
   font-size: 40pt;
   text-align: right;
 }
@@ -146,7 +146,6 @@ a:hover {
 }
 
 .about-us-info p {
-  color: white;
   font-size: 14pt;
   text-align: right;
 }
@@ -159,7 +158,7 @@ a:hover {
 
 .about-us-info a {
   background-color: white;
-  color: #0c4c91;
+  color: #fdd14d;
   width: 180px;
   text-align: center;
   padding: 15px 0px 15px 0px;
@@ -168,8 +167,8 @@ a:hover {
 }
 
 .about-us-info a:hover {
-  background: #404140;
-  color: white;
+  background: #FFF2CC;
+  color: #fdd14d;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transform: translateY(10px);
 }
@@ -183,6 +182,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin: 1rem 0rem 2rem 0rem;
+  background-color: #F4B183;
 }
 
 @media screen and (max-width: 860px) {
@@ -218,7 +219,8 @@ a:hover {
 @media screen and (max-width: 644px) {
   .history-image img {
     position: absolute;
-    right: -220px;
+    right: 0;
+    width: 100%;
   }
 }
 
@@ -238,7 +240,6 @@ a:hover {
   .history-info {
     margin-left: 400px;
     width: 60%;
-    background: #ffffff99;
     padding: 0px 0px 0px 25px;
   }
 }
@@ -279,7 +280,6 @@ a:hover {
 }
 
 .history-info h2 {
-  color: #0c4c91;
   font-size: 40pt;
   text-align: left;
 }
@@ -291,7 +291,7 @@ a:hover {
 }
 
 .history-info p {
-  color: #0c4c91;
+  color: white;
   font-size: 14pt;
   text-align: left;
 }
@@ -303,8 +303,8 @@ a:hover {
 }
 
 .history-info a {
-  background-color: #0c4c91;
-  color: white;
+  background-color: white;
+  color: #fdd14d;
   width: 180px;
   text-align: center;
   padding: 15px 0px 15px 0px;
@@ -313,8 +313,9 @@ a:hover {
 }
 
 .history-info a:hover {
-  background: #404140;
-  color: white;
+  background: #FFF2CC;
+  
+  color: #fdd14d;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transform: translateY(10px);
 }

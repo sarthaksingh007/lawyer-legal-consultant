@@ -14,26 +14,26 @@ const Navbar = () => {
     <nav className="navbar sm:px-4">
       <div className="container">
         <div className="logo">
-          <GoLaw className="text-5xl"/>
+          <GoLaw className="text-5xl" />
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          <RiMenu4Line className="text-5xl"/>
+          <RiMenu4Line className="text-5xl" />
         </div>
         <div className={`nav-elements z-50  ${showNavbar && "active"}`}>
           <ul>
-            <li>
+            <li onClick={handleShowNavbar}>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
+            <li onClick={handleShowNavbar}>
               <NavLink to="/blogs">Blogs</NavLink>
             </li>
-            <li>
+            <li onClick={handleShowNavbar}>
               <NavLink to="/projects">Projects</NavLink>
             </li>
-            <li>
+            <li onClick={handleShowNavbar}>
               <NavLink to="/aboutus">About</NavLink>
             </li>
-            <li>
+            <li onClick={handleShowNavbar}>
               <NavLink to="/contactus">Contact</NavLink>
             </li>
           </ul>
