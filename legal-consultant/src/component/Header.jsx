@@ -11,15 +11,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar sm:px-4">
       <div className="container">
         <div className="logo">
-          <GoLaw />
+          <GoLaw className="text-5xl"/>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          <RiMenu4Line />
+          <RiMenu4Line className="text-5xl"/>
         </div>
-        <div className={`nav-elements  ${showNavbar && "active"}`}>
+        <div className={`nav-elements z-50  ${showNavbar && "active"}`}>
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
@@ -31,10 +31,10 @@ const Navbar = () => {
               <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/aboutus">About</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contactus">Contact</NavLink>
             </li>
           </ul>
         </div>

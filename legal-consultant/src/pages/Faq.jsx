@@ -37,8 +37,8 @@ const Faq = () => {
   };
   return (
     <>
-      <h1 className="text-2xl font-bold text-center">FAQ </h1>
-      <div className="faqs">
+      <h1 className="border-b-8 border-[#fdd14d] border-double sm:w-2/4 w-11/12 mx-auto pb-3 text-center text-gray-600 cor text-6xl font-bold">FAQ </h1>
+      <div className="faqs ">
         {faqs.map((faq, index) => (
           <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
         ))}

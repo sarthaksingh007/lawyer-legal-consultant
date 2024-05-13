@@ -4,7 +4,7 @@ import "./styles.css";
 const FAQ = ({ faq, index, toggleFAQ }) => {
   return (
     <div
-      className={"faq " + (faq.open ? "open" : "")}
+      className={"faq " + (faq.open ? "open " : "") }
       key={index}
       onClick={() => toggleFAQ(index)}
     >

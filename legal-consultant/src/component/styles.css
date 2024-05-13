@@ -3,6 +3,7 @@
   max-width: 768px;
   margin: 0 auto;
   padding: 15px;
+  /* background-color: #FFF2CC; */
 }
 
 .faqs .faq {
@@ -11,6 +12,7 @@
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #FFF2CC;
 }
 
 .faqs .faq .faq-question {
@@ -18,6 +20,7 @@
   font-size: 20px;
   padding-right: 80px;
   transition: all 0.4s ease;
+  background-color: #FFF2CC;
 }
 
 .faqs .faq .faq-question::after {
@@ -29,6 +32,7 @@
   width: 30px;
   height: 30px;
   transition: all 0.2s ease;
+  background-color: #FFF2CC;
 }
 
 .faqs .faq .faq-answer {
@@ -36,17 +40,21 @@
   max-height: 0;
   overflow: hidden;
   transition: all 0.2s ease;
+  background-color: #FFF2CC;
 }
 
 .faqs .faq.open .faq-question {
   margin-bottom: 15px;
+  background-color: #FFF2CC;
 }
 
 .faqs .faq.open .faq-question::after {
   content: "-";
+  background-color: #FFF2CC;
 }
 
 .faqs .faq.open .faq-answer {
   max-height: 1000px;
   opacity: 1;
+  background-color: #FFF2CC;
 }
