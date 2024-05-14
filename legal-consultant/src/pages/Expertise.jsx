@@ -1,4 +1,4 @@
-import React from "react";
+
 import Law from "./../assets/laww.jpg";
 const Expertise = () => {
   return (

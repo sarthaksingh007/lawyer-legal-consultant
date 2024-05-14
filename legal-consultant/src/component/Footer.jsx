@@ -1,4 +1,4 @@
-import React from "react";
+
 import { GoLaw } from "react-icons/go";
 const Footer = () => {
   return (
