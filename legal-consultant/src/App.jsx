@@ -8,6 +8,8 @@ import About from "./pages/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Services from "./pages/Services";
+import MoreServices from "./pages/MoreServices";
 
 // Initialize AOS once the component mounts
 
@@ -23,6 +25,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contactus" element={<Contact />} />
           <Route path="/aboutus" element={<About />} />
+          <Route path="/legal-consultant" element={<Services />} />
+          <Route path="/learn-more/:id" element={<MoreServices/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

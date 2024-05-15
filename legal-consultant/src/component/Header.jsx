@@ -24,11 +24,11 @@ const Navbar = () => {
             <li onClick={handleShowNavbar}>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li onClick={handleShowNavbar}>
+            {/* <li onClick={handleShowNavbar}>
               <NavLink to="/blogs">Blogs</NavLink>
-            </li>
+            </li> */}
             <li onClick={handleShowNavbar}>
-              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/legal-consultant">legal-consultant</NavLink>
             </li>
             <li onClick={handleShowNavbar}>
               <NavLink to="/aboutus">About</NavLink>
